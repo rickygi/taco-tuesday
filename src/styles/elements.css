@@ -1,0 +1,35 @@
+/* button */
+
+.btn {
+  border: 0;
+  border-radius: 2px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-add {
+  background-color: var(--orange);
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.btn-icon {
+  padding: 6.5px 8px;
+  background-color: transparent;
+}
+
+.btn-icon:hover {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.btn-link {
+  margin: 1.5rem 0;
+  background-color: var(--green);
+  color: #ffffff;
+  white-space: nowrap;
+  text-decoration: none;
+}

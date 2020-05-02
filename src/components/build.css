@@ -1,0 +1,80 @@
+/* .taco-builder {} */
+
+/* .section {} */
+
+.section > h2 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section > ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  list-style-type: none;
+}
+
+.section .item {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: start;
+  justify-items: center;
+
+  margin: 1rem;
+  padding: 1rem;
+  height: 240px;
+  width: 200px;
+  background-position: top 120px center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ffffff;
+  color: var(--dark-gray);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.section .item .icon {
+  height: 64px;
+  width: 64px;
+}
+
+.section .item:hover {
+  opacity: 0.9;
+}
+
+.section .item:hover strong {
+  color: var(--dark-orange);
+}
+
+.section .no-item {
+  position: absolute;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+  height: 240px;
+  width: 200px;
+}
+
+/* breakpoints */
+
+/* medium (md) */
+@media (min-width: 768px) {
+  .section > h2 {
+    margin-left: 1rem;
+    text-align: left;
+  }
+
+  .section > ul {
+    justify-content: flex-start;
+  }
+}
