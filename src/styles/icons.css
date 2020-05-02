@@ -1,0 +1,22 @@
+.icon {
+  height: 32px;
+  width: 32px;
+}
+
+.cart-outline circle,
+.cart-outline path,
+.cart-outline polyline {
+  stroke: var(--light-gray) !important;
+}
+
+.checkmark-circle path {
+  fill: var(--dark-orange) !important;
+}
+
+.close-outline line {
+  stroke: var(--light-gray) !important;
+}
+
+.off-circle-outline path {
+  fill: var(--light-gray) !important;
+}
